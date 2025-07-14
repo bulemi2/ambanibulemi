@@ -6,8 +6,8 @@ export default function ServicesSection() {
       title: "Data Analysis & Insights",
       description: "Transform your raw data into actionable insights with comprehensive analysis, statistical modeling, and trend identification.",
       icon: "fas fa-chart-bar",
-      features: ["Statistical Analysis", "Trend Analysis", "Performance Metrics"],
-      price: "Starting at $500",
+      features: ["Statistical Analysis", "Trend Analysis", "Performance Metrics (KPIs)"],
+      price: "Starting at KSH 15,000",
       period: "Per project"
     },
     {
@@ -15,7 +15,7 @@ export default function ServicesSection() {
       description: "Interactive, real-time dashboards using Power BI, Tableau, or Excel to monitor KPIs and business performance.",
       icon: "fas fa-tachometer-alt",
       features: ["Interactive Visualizations", "Real-time Updates", "Custom KPIs"],
-      price: "Starting at $800",
+      price: "Starting at KSH 10,000",
       period: "Per dashboard"
     },
     {
@@ -23,7 +23,7 @@ export default function ServicesSection() {
       description: "Automated reporting solutions that deliver regular insights to stakeholders with clear visualizations and recommendations.",
       icon: "fas fa-file-alt",
       features: ["Automated Reports", "Executive Summaries", "Actionable Insights"],
-      price: "Starting at $300",
+      price: "Starting at KSH 20,000",
       period: "Per report"
     },
     {
@@ -31,7 +31,7 @@ export default function ServicesSection() {
       description: "Database optimization, data cleaning, ETL processes, and data warehouse setup for improved data quality and accessibility.",
       icon: "fas fa-database",
       features: ["Data Cleaning", "ETL Processes", "Database Optimization"],
-      price: "Starting at $1,200",
+      price: "Starting at KSH 30,000",
       period: "Per project"
     },
     {
@@ -39,7 +39,7 @@ export default function ServicesSection() {
       description: "Empower your team with data analysis skills through customized training sessions and strategic consultation.",
       icon: "fas fa-graduation-cap",
       features: ["Team Training", "Strategy Consultation", "Best Practices"],
-      price: "$150/hour",
+      price: "KSH 5,000/hour",
       period: "Hourly rate"
     },
     {
@@ -47,7 +47,7 @@ export default function ServicesSection() {
       description: "Advanced machine learning models for forecasting, predictive maintenance, and business intelligence applications.",
       icon: "fas fa-brain",
       features: ["Forecasting Models", "Risk Assessment", "Pattern Recognition"],
-      price: "Starting at $2,000",
+      price: "Starting at KSH 50,000",
       period: "Per model"
     }
   ];
@@ -89,7 +89,7 @@ export default function ServicesSection() {
 
         <div className="text-center mt-12">
           <p className="text-lg text-slate-600 mb-6">
-            Need a custom solution? Let's discuss your specific requirements.
+            Need a custom/Tailor-made solution? Let's discuss your specific requirements.
           </p>
           <button
             onClick={() => {
@@ -100,7 +100,7 @@ export default function ServicesSection() {
             }}
             className="bg-data-blue text-white px-8 py-3 rounded-lg hover:bg-data-blue-deep transition-colors duration-200 font-semibold"
           >
-            Get a Quote
+            Contact Me
           </button>
         </div>
       </div>

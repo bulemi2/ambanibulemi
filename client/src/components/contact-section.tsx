@@ -3,7 +3,7 @@ import { useMutation } from "@tanstack/react-query";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Mail, Phone, MapPin, Calendar, Send, Linkedin, Github, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, Calendar, Send, Linkedin, Github, InstagramIcon, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -85,7 +85,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Email</h3>
-                  <p className="text-slate-600">sarah.chen@datainsights.com</p>
+                  <p className="text-slate-600">ambanibulemi@gmail.com</p>
                   <p className="text-slate-500 text-sm mt-1">I'll respond within 24 hours</p>
                 </div>
               </div>
@@ -96,8 +96,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Phone</h3>
-                  <p className="text-slate-600">+1 (555) 123-4567</p>
-                  <p className="text-slate-500 text-sm mt-1">Available Mon-Fri, 9 AM - 6 PM EST</p>
+                  <p className="text-slate-600">+254757296396 /+254794419686</p>
+                  <p className="text-slate-500 text-sm mt-1">Available Mon-Fri, 9 AM - 6 PM EAT</p>
                 </div>
               </div>
 
@@ -107,7 +107,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Location</h3>
-                  <p className="text-slate-600">San Francisco Bay Area</p>
+                  <p className="text-slate-600">Nairobi, Kakamega, KENYA</p>
                   <p className="text-slate-500 text-sm mt-1">Available for remote work worldwide</p>
                 </div>
               </div>
@@ -119,12 +119,12 @@ export default function ContactSection() {
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Schedule a Call</h3>
                   <p className="text-slate-600 mb-2">Book a free 30-minute consultation</p>
-                  <a
+                  {/* <a
                     href="#"
                     className="text-data-blue hover:text-data-blue-deep transition-colors duration-200 font-medium inline-flex items-center gap-1"
                   >
                     View Available Times <ExternalLink className="h-4 w-4" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function ContactSection() {
               <h3 className="text-lg font-semibold text-slate-900 mb-4">Connect on Social</h3>
               <div className="flex gap-4">
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/bulemi-ambani-722638346"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-data-blue/10 rounded-xl flex items-center justify-center hover:bg-data-blue hover:text-white transition-all duration-200"
@@ -141,7 +141,7 @@ export default function ContactSection() {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/bulemi2"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-data-blue/10 rounded-xl flex items-center justify-center hover:bg-data-blue hover:text-white transition-all duration-200"
@@ -152,10 +152,10 @@ export default function ContactSection() {
                   href="#"
                   className="w-12 h-12 bg-data-blue/10 rounded-xl flex items-center justify-center hover:bg-data-blue hover:text-white transition-all duration-200"
                 >
-                  <i className="fab fa-kaggle text-xl"></i>
+                  <InstagramIcon className="fab fa-Instagram text-2xl"/>
                 </a>
                 <a
-                  href="#"
+                  href="https://X.com/Ambani_2019"
                   className="w-12 h-12 bg-data-blue/10 rounded-xl flex items-center justify-center hover:bg-data-blue hover:text-white transition-all duration-200"
                 >
                   <i className="fab fa-twitter text-xl"></i>
@@ -236,11 +236,11 @@ export default function ContactSection() {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="under-1k">Under $1,000</SelectItem>
-                            <SelectItem value="1k-5k">$1,000 - $5,000</SelectItem>
-                            <SelectItem value="5k-10k">$5,000 - $10,000</SelectItem>
-                            <SelectItem value="10k-25k">$10,000 - $25,000</SelectItem>
-                            <SelectItem value="25k-plus">$25,000+</SelectItem>
+                            <SelectItem value="under-1k">Under KSH10,000</SelectItem>
+                            <SelectItem value="1k-5k">KSH 10,000 - KSH15,000</SelectItem>
+                            <SelectItem value="5k-10k">KSH15,000 - KSH20,000</SelectItem>
+                            <SelectItem value="10k-25k">KSH20,000 - KSH50,000</SelectItem>
+                            <SelectItem value="25k-plus">KSH50,000+</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />

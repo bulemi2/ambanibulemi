@@ -13,14 +13,14 @@ export default function ProjectsSection() {
       title: "Customer Segmentation Analysis",
       description: "Advanced segmentation model that identified 5 distinct customer personas, leading to 25% increase in targeted marketing ROI.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Python", "Tableau"],
+      tags: ["Python", "Power BI"],
       client: "Retail Chain"
     },
     {
       title: "Financial Forecasting Model",
       description: "Predictive model for quarterly revenue forecasting with 95% accuracy, enabling better budget planning and resource allocation.",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Excel", "R"],
+      tags: ["Excel", "Python"],
       client: "FinTech Startup"
     },
     {
@@ -64,7 +64,7 @@ export default function ProjectsSection() {
     <section id="projects" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Featured Projects</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Clients Projects Done</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Explore some of my recent data analysis projects that delivered measurable business impact.
           </p>
@@ -94,7 +94,7 @@ export default function ProjectsSection() {
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">{project.title}</h3>
                 <p className="text-slate-600 mb-4">{project.description}</p>
-                <div className="flex items-center justify-between">
+                {/* <div className="flex items-center justify-between">
                   <span className="text-sm text-slate-500">{project.client}</span>
                   <a
                     href="#"
@@ -102,20 +102,20 @@ export default function ProjectsSection() {
                   >
                     View Case Study <ExternalLink className="h-4 w-4" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <a
             href="#"
             className="bg-data-blue text-white px-8 py-3 rounded-lg hover:bg-data-blue-deep transition-colors duration-200 font-semibold"
           >
             View All Projects
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

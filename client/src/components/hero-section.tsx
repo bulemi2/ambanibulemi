@@ -1,4 +1,4 @@
-import { Download, Linkedin, Github, FileText } from "lucide-react";
+import { Download, Linkedin, Github, InstagramIcon, FileText, TwitchIcon, Twitter } from "lucide-react";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -18,7 +18,7 @@ export default function HeroSection() {
               <span className="text-data-blue">Actionable Insights</span>
             </h1>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-              Data Analyst & Business Intelligence Specialist with 5+ years of experience helping businesses make data-driven decisions through advanced analytics, visualization, and reporting.
+              Data Analyst & Business Intelligence Specialist with 2+ years of experience helping businesses make data-driven decisions through advanced analytics, visualization, and reporting.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button
@@ -31,12 +31,12 @@ export default function HeroSection() {
                 onClick={() => scrollToSection('contact')}
                 className="border-2 border-data-blue text-data-blue px-8 py-3 rounded-lg hover:bg-data-blue hover:text-white transition-all duration-200 font-semibold text-center"
               >
-                Hire Me
+                Contact Me
               </button>
             </div>
             <div className="flex items-center gap-6 mt-8">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/bulemi-ambani-722638346"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-data-blue transition-colors duration-200"
@@ -44,7 +44,7 @@ export default function HeroSection() {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/bulemi2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-data-blue transition-colors duration-200"
@@ -55,20 +55,20 @@ export default function HeroSection() {
                 href="#"
                 className="text-slate-600 hover:text-data-blue transition-colors duration-200"
               >
-                <i className="fab fa-kaggle text-2xl"></i>
+                <InstagramIcon className="fab fa-Instagram text-2xl"/>
               </a>
               <a
-                href="#"
+                href="https://www.X.com/Ambani_2019"
                 className="text-slate-600 hover:text-data-blue transition-colors duration-200"
               >
-                <FileText className="h-6 w-6" />
+                <Twitter className="h-6 w-6" />
               </a>
             </div>
           </div>
           <div className="lg:text-right">
             <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600"
-              alt="Professional data analyst"
+              src="/Images/photo.jpg" 
+              alt=" Proffesional data analyst"
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto lg:ml-auto"
             />
           </div>

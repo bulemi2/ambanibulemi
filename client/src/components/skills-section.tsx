@@ -2,9 +2,9 @@ export default function SkillsSection() {
   const skills = [
     {
       name: "SQL",
-      description: "Advanced querying, optimization, and database management",
+      description: "Querying, Optimization, and Database Management",
       icon: "fas fa-database",
-      level: 95,
+      level: 85,
       expertise: "Expert"
     },
     {
@@ -16,7 +16,7 @@ export default function SkillsSection() {
     },
     {
       name: "Excel",
-      description: "Advanced formulas, pivot tables, and VBA",
+      description: "Advanced formulas, pivot tables, and Power Query",
       icon: "fas fa-table",
       level: 95,
       expertise: "Expert"
@@ -63,7 +63,7 @@ export default function SkillsSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Skills & Tools</h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-600 max-w-3xl mx-auto">
             Proficient in a comprehensive suite of data analysis and visualization tools to deliver exceptional results.
           </p>
         </div>

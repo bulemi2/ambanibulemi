@@ -13,13 +13,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">Sarah Chen</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Ambani Bulemi</h3>
             <p className="text-slate-400 mb-6 max-w-md">
               Data Analyst & Business Intelligence Specialist helping businesses transform their data into actionable insights for better decision-making.
             </p>
             <div className="flex gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/bulemi-ambani-722638346"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-data-blue transition-colors duration-200"
@@ -27,7 +27,7 @@ export default function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/bulemi2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-data-blue transition-colors duration-200"
@@ -44,7 +44,7 @@ export default function Footer() {
                 href="#"
                 className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-data-blue transition-colors duration-200"
               >
-                <i className="fab fa-twitter"></i>
+                <i  className="fab fa-twitter"></i>
               </a>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-slate-400 text-sm">&copy; 2024 Sarah Chen. All rights reserved.</p>
+          <p className="text-slate-400 text-sm">&copy; 2025 Ambani Bulemi. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="text-slate-400 hover:text-white transition-colors duration-200 text-sm">Privacy Policy</a>
             <a href="#" className="text-slate-400 hover:text-white transition-colors duration-200 text-sm">Terms of Service</a>
